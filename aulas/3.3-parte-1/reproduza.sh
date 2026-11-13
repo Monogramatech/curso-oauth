@@ -4,7 +4,7 @@
 #   bash aulas/3.3-parte-1/reproduza.sh
 source "$(dirname "$0")/../../laboratorio/comum.sh"
 pkce
-K="docker exec kc /opt/keycloak/bin/kcadm.sh"; $K config credentials --server http://localhost:8080 --realm master --user admin --password admin
+K="docker exec kc //opt/keycloak/bin/kcadm.sh"; $K config credentials --server http://localhost:8080 --realm master --user admin --password admin
 A="http://localhost:8080/realms/curso/protocol/openid-connect"
 url() { echo "$A/auth?response_type=code&client_id=app-de-fotos&redirect_uri=http://localhost:3000/callback&scope=$1&state=abc123&code_challenge=$CH&code_challenge_method=S256"; }
 mostra() { node -e "const r=JSON.parse(require('fs').readFileSync('t.json','utf8')),b=JSON.parse(Buffer.from(r.access_token.split('.')[1],'base64url'));console.log('aud:',b.aud,'| scope:',b.scope)"; }

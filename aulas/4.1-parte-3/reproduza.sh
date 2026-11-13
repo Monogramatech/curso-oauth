@@ -3,7 +3,7 @@
 # Reproduz o laboratório desta parte. Antes, uma vez: bash laboratorio/preparo.sh
 #   bash aulas/4.1-parte-3/reproduza.sh
 source "$(dirname "$0")/../../laboratorio/comum.sh"
-K="docker exec kc /opt/keycloak/bin/kcadm.sh"; $K config credentials --server http://localhost:8080 --realm master --user admin --password admin
+K="docker exec kc //opt/keycloak/bin/kcadm.sh"; $K config credentials --server http://localhost:8080 --realm master --user admin --password admin
 A="http://localhost:8080/realms/curso/protocol/openid-connect"; R=http://localhost:3000/callback; F=app-de-fotos; N=app-antigo
 s256() { printf %s "$1" | openssl dgst -sha256 -binary | openssl base64 -A | tr '+/' '-_' | tr -d '='; }
 url() { echo "$A/auth?response_type=code&client_id=$1&redirect_uri=$R&scope=openid&state=abc123${2:+&code_challenge=$2}${3:+&code_challenge_method=$3}"; }

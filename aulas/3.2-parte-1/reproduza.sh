@@ -4,7 +4,7 @@
 #   bash aulas/3.2-parte-1/reproduza.sh
 source "$(dirname "$0")/../../laboratorio/comum.sh"
 login_lab
-K="docker exec kc /opt/keycloak/bin/kcadm.sh"; $K config credentials --server http://localhost:8080 --realm master --user admin --password admin
+K="docker exec kc //opt/keycloak/bin/kcadm.sh"; $K config credentials --server http://localhost:8080 --realm master --user admin --password admin
 A="http://localhost:8080/realms/curso/protocol/openid-connect"
 # Os dois tokens: cabeçalho igual; o ID token traz aud com o app
 echo; echo "== Os dois tokens: cabeçalho igual; o ID token traz aud com o app"

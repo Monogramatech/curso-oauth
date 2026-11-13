@@ -5,7 +5,7 @@
 source "$(dirname "$0")/../../laboratorio/comum.sh"
 # Comece sem consentimento guardado (se você já fez o login da Aula 0.2, o Keycloak lembraria e pularia a tela).
 echo; echo "== Comece sem consentimento guardado (se você já fez o login da Aula 0.2, o Keycloak lembraria e pularia a tela)."
-K="docker exec kc /opt/keycloak/bin/kcadm.sh"; $K config credentials --server http://localhost:8080 --realm master --user admin --password admin
+K="docker exec kc //opt/keycloak/bin/kcadm.sh"; $K config credentials --server http://localhost:8080 --realm master --user admin --password admin
 U=$($K get users -r curso -q username=voce --fields id --format csv --noquotes)
 $K delete users/$U/consents/app-de-fotos -r curso
 V=$(openssl rand -base64 48 | tr -d '=+/\n' | cut -c1-64)

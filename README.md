@@ -46,6 +46,7 @@ Depois, cada parte tem o seu script: `bash aulas/<parte>/reproduza.sh`. Para apa
 | [4.1 · Parte 1](aulas/4.1-parte-1/) | O fluxo completo, requisição por requisição | `reproduza.sh` | 2 |
 | [4.1 · Parte 2](aulas/4.1-parte-2/) | O ataque que o PKCE resolve | `reproduza.sh` | 2 |
 | [4.1 · Parte 3](aulas/4.1-parte-3/) | PKCE por dentro: code_verifier, code_challenge e S256 | `reproduza.sh` | 2 |
+| [4.2 · Parte 1](aulas/4.2-parte-1/) | Serviço falando com serviço, sem usuário | `reproduza.sh` | 2 |
 
 Cada pasta tem um README com o que a parte mostra, como reproduzir, os exercícios com uma boa resposta e as fontes.
 
