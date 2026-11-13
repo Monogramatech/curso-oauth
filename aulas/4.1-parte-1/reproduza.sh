@@ -6,7 +6,7 @@ source "$(dirname "$0")/../../laboratorio/comum.sh"
 pkce
 # Para ver as requisições do navegador: F12, aba Rede, "Preservar log" marcado e o filtro "Doc" (sem os arquivos da página).
 echo; echo "== Para ver as requisições do navegador: F12, aba Rede, 'Preservar log' marcado e o filtro 'Doc' (sem os arquivos da página)."
-K="docker exec kc /opt/keycloak/bin/kcadm.sh"; $K config credentials --server http://localhost:8080 --realm master --user admin --password admin
+K="docker exec kc //opt/keycloak/bin/kcadm.sh"; $K config credentials --server http://localhost:8080 --realm master --user admin --password admin
 A="http://localhost:8080/realms/curso/protocol/openid-connect"
 url() { echo "$A/auth?response_type=code&client_id=app-de-fotos&redirect_uri=${1:-http://localhost:3000/callback}&scope=${2:-openid%20fotos:publicar}&state=abc123&code_challenge=$CH&code_challenge_method=S256"; }
 troca() { curl -s -o $2 -w "%{http_code} " $A/token -d grant_type=authorization_code -d client_id=${3:-app-de-fotos} -d redirect_uri=${4:-http://localhost:3000/callback} -d code_verifier=$V -d code=$1; node -e "const j=JSON.parse(require('fs').readFileSync('$2','utf8'));console.log(j.error ? j.error+' · '+j.error_description : 'tokens · '+j.scope)"; }

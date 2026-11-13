@@ -4,7 +4,7 @@
 #   bash aulas/3.1-parte-2/reproduza.sh
 source "$(dirname "$0")/../../laboratorio/comum.sh"
 login_lab
-K="docker exec kc /opt/keycloak/bin/kcadm.sh"; $K config credentials --server http://localhost:8080 --realm master --user admin --password admin
+K="docker exec kc //opt/keycloak/bin/kcadm.sh"; $K config credentials --server http://localhost:8080 --realm master --user admin --password admin
 A="http://localhost:8080/realms/curso/protocol/openid-connect"
 # A API ganha um client confidencial, só para perguntar ao servidor (segredo de teste)
 echo; echo "== A API ganha um client confidencial, só para perguntar ao servidor (segredo de teste)"

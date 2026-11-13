@@ -3,7 +3,7 @@
 # Reproduz o laboratório desta parte. Antes, uma vez: bash laboratorio/preparo.sh
 #   bash aulas/1.2-parte-1/reproduza.sh
 source "$(dirname "$0")/../../laboratorio/comum.sh"
-K="docker exec kc /opt/keycloak/bin/kcadm.sh"; $K config credentials --server http://localhost:8080 --realm master --user admin --password admin
+K="docker exec kc //opt/keycloak/bin/kcadm.sh"; $K config credentials --server http://localhost:8080 --realm master --user admin --password admin
 # O caminho até as chaves: issuer, descoberta, JWKS
 echo; echo "== O caminho até as chaves: issuer, descoberta, JWKS"
 curl -s http://localhost:8080/realms/curso/.well-known/openid-configuration | grep -o '"jwks_uri":"[^"]*"'

@@ -9,7 +9,7 @@ docker run -d --name kc -p 127.0.0.1:8080:8080 -e KC_BOOTSTRAP_ADMIN_USERNAME=ad
 echo "Esperando o Keycloak subir (até 3 min)..."
 for i in $(seq 1 90); do curl -s -o /dev/null -w "%{http_code}" http://localhost:8080/realms/master | grep -q 200 && break; sleep 2; done
 # 2. Monta o realm (senhas de teste)
-K="docker exec kc /opt/keycloak/bin/kcadm.sh"
+K="docker exec kc //opt/keycloak/bin/kcadm.sh"
 $K config credentials --server http://localhost:8080 --realm master --user admin --password admin
 $K create realms -s realm=curso -s enabled=true -s accessTokenLifespan=300
 $K create users -r curso -s username=voce -s enabled=true -s email=voce@exemplo.test -s firstName=Voce -s lastName=Aluno
