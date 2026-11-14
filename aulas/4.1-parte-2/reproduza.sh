@@ -4,6 +4,7 @@
 #   bash aulas/4.1-parte-2/reproduza.sh
 source "$(dirname "$0")/../../laboratorio/comum.sh"
 pkce
+unalias -a
 K="docker exec kc //opt/keycloak/bin/kcadm.sh"; $K config credentials --server http://localhost:8080 --realm master --user admin --password admin
 A="http://localhost:8080/realms/curso/protocol/openid-connect"; R=http://localhost:3000/callback; P="&code_challenge=$CH&code_challenge_method=S256"
 url() { echo "$A/auth?response_type=code&client_id=$1&redirect_uri=$R&scope=openid&state=abc123$2"; }

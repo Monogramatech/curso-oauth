@@ -3,6 +3,7 @@
 # Reproduz o laboratório desta parte. Antes, uma vez: bash laboratorio/preparo.sh
 #   bash aulas/4.2-parte-1/reproduza.sh
 source "$(dirname "$0")/../../laboratorio/comum.sh"
+unalias -a
 K="docker exec kc //opt/keycloak/bin/kcadm.sh"; $K config credentials --server http://localhost:8080 --realm master --user admin --password admin
 I=http://localhost:8080/realms/curso; A=$I/protocol/openid-connect/token; G="-d grant_type=client_credentials"
 corpo() { node -p "JSON.parse(Buffer.from(require('fs').readFileSync(0,'utf8').split('.')[1],'base64url'))"; }

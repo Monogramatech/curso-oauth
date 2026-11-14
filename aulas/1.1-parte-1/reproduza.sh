@@ -6,6 +6,7 @@ source "$(dirname "$0")/../../laboratorio/comum.sh"
 login_lab
 # O corpo do token, decodificado: qualquer um lê
 echo; echo "== O corpo do token, decodificado: qualquer um lê"
+unalias -a
 node -e "console.log(Buffer.from(process.argv[1].split('.')[1],'base64url').toString())" "$T"
 # Base64url: ida e volta
 echo; echo "== Base64url: ida e volta"

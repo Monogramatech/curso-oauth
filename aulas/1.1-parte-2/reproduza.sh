@@ -6,6 +6,7 @@ source "$(dirname "$0")/../../laboratorio/comum.sh"
 login_lab
 # HS256: quem tem o segredo assina, confere e também fabrica (aqui, um token com o escopo de apagar fotos)
 echo; echo "== HS256: quem tem o segredo assina, confere e também fabrica (aqui, um token com o escopo de apagar fotos)"
+unalias -a
 node -e "const c=require('crypto'),b=function(o){return Buffer.from(JSON.stringify(o)).toString('base64url')},e=b({alg:'HS256',typ:'JWT'})+'.'+b({sub:'voce',scope:'fotos:apagar'});console.log(e+'.'+c.createHmac('sha256','segredo-de-teste').update(e).digest('base64url'))"
 # RS256: confira o seu access token com a chave pública do JWKS, achada pelo kid
 echo; echo "== RS256: confira o seu access token com a chave pública do JWKS, achada pelo kid"

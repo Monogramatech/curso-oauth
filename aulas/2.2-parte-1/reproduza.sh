@@ -5,6 +5,7 @@
 source "$(dirname "$0")/../../laboratorio/comum.sh"
 # O client confidencial site-de-fotos e o segredo que o Keycloak gera (de teste).
 echo; echo "== O client confidencial site-de-fotos e o segredo que o Keycloak gera (de teste)."
+unalias -a
 K="docker exec kc //opt/keycloak/bin/kcadm.sh"; $K config credentials --server http://localhost:8080 --realm master --user admin --password admin
 $K create clients -r curso -s clientId=site-de-fotos -s publicClient=false -s 'redirectUris=["http://localhost:4000/callback"]' -s 'attributes."pkce.code.challenge.method"=S256'
 ID=$($K get clients -r curso -q clientId=site-de-fotos --fields id --format csv --noquotes)
