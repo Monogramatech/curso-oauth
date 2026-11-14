@@ -4,6 +4,7 @@
 #   bash aulas/3.1-parte-1/reproduza.sh
 source "$(dirname "$0")/../../laboratorio/comum.sh"
 login_lab
+unalias -a
 A="http://localhost:8080/realms/curso/protocol/openid-connect"
 # O token em outro programa: só o cabeçalho, e a API responde
 echo; echo "== O token em outro programa: só o cabeçalho, e a API responde"

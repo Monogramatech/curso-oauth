@@ -5,6 +5,7 @@
 source "$(dirname "$0")/../../laboratorio/comum.sh"
 # Metadados da RFC 8414: o caminho padrão entra entre o host e o caminho do issuer.
 echo; echo "== Metadados da RFC 8414: o caminho padrão entra entre o host e o caminho do issuer."
+unalias -a
 curl -s http://localhost:8080/.well-known/oauth-authorization-server/realms/curso | node -e "const m=JSON.parse(require('fs').readFileSync(0,'utf8'));console.log(m.issuer,m.authorization_endpoint,m.token_endpoint,m.code_challenge_methods_supported)"
 # Canal da frente: o pedido vai no endereço. Abra o endereço impresso, entre com voce / teste123 e permita.
 echo; echo "== Canal da frente: o pedido vai no endereço. Abra o endereço impresso, entre com voce / teste123 e permita."

@@ -6,6 +6,7 @@ source "$(dirname "$0")/../../laboratorio/comum.sh"
 login_lab
 # Os papéis dentro do token: iss (authorization server), azp (client), sub (resource owner) e scope. Repare: não há aud.
 echo; echo "== Os papéis dentro do token: iss (authorization server), azp (client), sub (resource owner) e scope. Repare: não há aud."
+unalias -a
 node -e "const c=JSON.parse(Buffer.from(process.argv[1].split('.')[1],'base64url'));console.log({iss:c.iss,azp:c.azp,sub:c.sub,scope:c.scope,aud:c.aud})" "$T"
 # O resource server do laboratório é o próprio Keycloak (userinfo): ele responde com o mesmo sub.
 echo; echo "== O resource server do laboratório é o próprio Keycloak (userinfo): ele responde com o mesmo sub."
