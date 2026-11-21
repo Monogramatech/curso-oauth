@@ -51,7 +51,7 @@ O app manda um token que já virou velho. O servidor vê o reuso e derruba o log
 
 ## Fontes
 
-- RFC 9700 (IETF, jan/2025), seções 2.2.2 e 4.14
-- RFC 6749 (IETF, out/2012), seções 1.5, 5.1, 6 e 10.4
+- RFC 9700 (jan/2025), seções 2.2.2 e 4.14
+- RFC 6749 (out/2012), seções 1.5, 5.1, 6 e 10.4
 - Keycloak: Server Administration Guide (conferido em 10/11/2026)
 - Laboratório: Keycloak 26.4 local, nov/2026

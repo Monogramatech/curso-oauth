@@ -51,7 +51,7 @@ Sem o parâmetro, vale o plain. O servidor compara o verifier direto com o desaf
 
 ## Fontes
 
-- RFC 7636 (IETF, set/2015), seções 1, 4 e 7 e apêndice B
-- RFC 9700 (IETF, jan/2025), seções 2.1.1 e 4.8
+- RFC 7636 (set/2015), seções 1, 4 e 7 e apêndice B
+- RFC 9700 (jan/2025), seções 2.1.1 e 4.8
 - Keycloak: Server Administration Guide (conferido em 11/11/2026)
 - Laboratório: Keycloak 26.4 local, nov/2026

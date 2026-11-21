@@ -49,8 +49,8 @@ No typ e no aud, passa. A forma longa também vale, e a API está na lista. Falt
 
 ## Fontes
 
-- RFC 7519 (IETF, mai/2015), seções 1, 2 e 4.1 a 4.3
-- RFC 7515 (IETF, mai/2015), seções 3.1 e 4.1
-- RFC 9068 (IETF, out/2021), seções 2.1, 2.2, 4 e 5
+- RFC 7519 (mai/2015), seções 1, 2 e 4.1 a 4.3
+- RFC 7515 (mai/2015), seções 3.1 e 4.1
+- RFC 9068 (out/2021), seções 2.1, 2.2, 4 e 5
 - OpenID Connect Core 1.0, seção 2
 - Laboratório: Keycloak 26.4 local, nov/2026

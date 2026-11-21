@@ -50,9 +50,9 @@ Redirecionamento, login, consentimento, retorno com o código, troca pelo token 
 
 ## Fontes
 
-- RFC 6749, The OAuth 2.0 Authorization Framework (IETF, out/2012), seções 4.1 e 5.1
-- RFC 7636, Proof Key for Code Exchange (PKCE) (IETF, set/2015)
-- RFC 9207, Authorization Server Issuer Identification (IETF, mar/2022)
-- RFC 6750, Bearer Token Usage (IETF, out/2012), seções 2.1 e 3
+- RFC 6749, The OAuth 2.0 Authorization Framework (out/2012), seções 4.1 e 5.1
+- RFC 7636, Proof Key for Code Exchange (PKCE) (set/2015)
+- RFC 9207, Authorization Server Issuer Identification (mar/2022)
+- RFC 6750, Bearer Token Usage (out/2012), seções 2.1 e 3
 - OpenID Connect Core 1.0 (OpenID Foundation), seções 2 e 5.3
-- Laboratório: Keycloak 26.4 local (quay.io/keycloak/keycloak:26.4), nov/2026
+- Laboratório: Keycloak 26.4 local, nov/2026

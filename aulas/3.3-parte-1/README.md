@@ -50,9 +50,9 @@ Não. Ela está no aud, então passa na primeira pergunta. Mas falta o escopo pa
 
 ## Fontes
 
-- RFC 9700 (IETF, jan/2025), seções 2.3 e 4.9.3
-- RFC 8707 (IETF, fev/2020), seções 1 a 3
-- RFC 6749 (IETF, out/2012), seção 6
-- RFC 9068 (IETF, out/2021), seção 2.2.3
+- RFC 9700 (jan/2025), seções 2.3 e 4.9.3
+- RFC 8707 (fev/2020), seções 1 a 3
+- RFC 6749 (out/2012), seção 6
+- RFC 9068 (out/2021), seção 2.2.3
 - Microsoft Learn: Scopes and permissions (conferido em 10/11/2026)
 - Laboratório: Keycloak 26.4 local, nov/2026

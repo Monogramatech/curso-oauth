@@ -52,9 +52,9 @@ Só o primeiro, idêntico ao registrado. A barra a mais, o host parecido e o out
 
 ## Fontes
 
-- RFC 6749 (IETF, out/2012), seções 2.1 a 2.3.1, 3.1.2, 4.1.2.1, 4.1.3, 5.2 e 10.6
-- RFC 9700 (IETF, jan/2025), seções 2.1, 2.1.1, 4.1 e 4.1.1
-- RFC 8252 (IETF, out/2017), seções 7.3, 8.3 e 8.5
-- RFC 7591 (IETF, jul/2015), seção 3
+- RFC 6749 (out/2012), seções 2.1 a 2.3.1, 3.1.2, 4.1.2.1, 4.1.3, 5.2 e 10.6
+- RFC 9700 (jan/2025), seções 2.1, 2.1.1, 4.1 e 4.1.1
+- RFC 8252 (out/2017), seções 7.3, 8.3 e 8.5
+- RFC 7591 (jul/2015), seção 3
 - Microsoft Learn: registro de aplicativos no Entra ID (nov/2026)
 - Laboratório: Keycloak 26.4 local, nov/2026

@@ -52,8 +52,8 @@ Sim, a RFC 9700 recomenda. O segredo barra só a troca direta. Na injeção, o p
 
 ## Fontes
 
-- RFC 7636 (IETF, set/2015), seções 1, 4.4 e 4.6
-- RFC 9700 (IETF, jan/2025), seções 2.1.1 e 4.5
-- RFC 8252 (IETF, out/2017), seções 7.1 e 8.1
+- RFC 7636 (set/2015), seções 1, 4.4 e 4.6
+- RFC 9700 (jan/2025), seções 2.1.1 e 4.5
+- RFC 8252 (out/2017), seções 7.1 e 8.1
 - Keycloak: Server Administration Guide (conferido em 11/11/2026)
 - Laboratório: Keycloak 26.4 local, nov/2026

@@ -50,10 +50,10 @@ Um, JWT, sem consulta ao servidor. Dois, opaco, ou um JWT sem o e-mail. Três, o
 
 ## Fontes
 
-- RFC 6750 (IETF, out/2012), seções 1.2, 2.1 a 2.3, 3.1 e 5.3
-- RFC 6749 (IETF, out/2012), seções 1.4 e 10.10
-- RFC 9700 (IETF, jan/2025), seções 2.2.1 e 4.3.2
-- RFC 7662 (IETF, out/2015)
+- RFC 6750 (out/2012), seções 1.2, 2.1 a 2.3, 3.1 e 5.3
+- RFC 6749 (out/2012), seções 1.4 e 10.10
+- RFC 9700 (jan/2025), seções 2.2.1 e 4.3.2
+- RFC 7662 (out/2015)
 - Microsoft Learn, "Access tokens"
 - Google Cloud, "Token types"
 - Laboratório: Keycloak 26.4 local, nov/2026
