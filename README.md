@@ -62,6 +62,7 @@ Depois, cada parte tem o seu script: `bash aulas/<parte>/reproduza.sh`. Para apa
 | [3.1 · Parte 1](aulas/3.1-parte-1/) | Token opaco × JWT, e o token de portador (Bearer) | `reproduza.sh` | 2 |
 | [3.1 · Parte 2](aulas/3.1-parte-2/) | Introspecção e revogação | `reproduza.sh` | 2 |
 | [3.2 · Parte 1](aulas/3.2-parte-1/) | Cabeçalho, payload, assinatura e as claims padrão | `reproduza.sh` | 2 |
+| [3.2 · Parte 2](aulas/3.2-parte-2/) | Conferir as claims em ordem | `reproduza.sh` | 2 |
 | [3.3 · Parte 1](aulas/3.3-parte-1/) | aud e scope: destino e poder | `reproduza.sh` | 2 |
 | [3.3 · Parte 2](aulas/3.3-parte-2/) | Refresh token, expiração e rotação | `reproduza.sh` | 2 |
 | [4.1 · Parte 1](aulas/4.1-parte-1/) | O fluxo completo, requisição por requisição | `reproduza.sh` | 2 |
