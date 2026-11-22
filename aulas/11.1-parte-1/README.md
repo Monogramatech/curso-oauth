@@ -2,7 +2,7 @@
 
 **No vídeo:** Agente de IA com identidade própria: o agente no token
 
-Vídeo na playlist "OAuth: do login aos agentes", no canal Monograma no YouTube.
+Vídeo na playlist "OAuth: do login aos agentes", no canal MonogramaTech no YouTube.
 
 ## O que esta parte mostra
 

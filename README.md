@@ -1,6 +1,6 @@
 # OAuth: do login aos agentes
 
-O laboratório e as respostas dos exercícios do curso **"OAuth: do login aos agentes"**, do canal Monograma no YouTube:
+O laboratório e as respostas dos exercícios do curso **"OAuth: do login aos agentes"**, do canal MonogramaTech no YouTube:
 OAuth 2.0 e OpenID Connect para devs de qualquer linguagem, do login à delegação entre serviços e agentes de IA.
 Toda requisição e todo token que aparecem nos vídeos saíram deste laboratório.
 
@@ -100,4 +100,4 @@ Cada pasta tem um README com o que a parte mostra, como reproduzir, os exercíci
 
 - Os scripts (`*.sh`) estão sob a licença MIT: veja [LICENSE](LICENSE).
 - Os textos (os README e as respostas dos exercícios) estão sob a CC BY 4.0: veja [LICENSE-CC-BY-4.0](LICENSE-CC-BY-4.0).
-  Pode reutilizar e adaptar, citando a fonte: "OAuth: do login aos agentes", canal Monograma.
+  Pode reutilizar e adaptar, citando a fonte: "OAuth: do login aos agentes", canal MonogramaTech.

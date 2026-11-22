@@ -2,7 +2,7 @@
 
 **No vídeo:** Token exchange (RFC 8693) na prática: subject token e audience
 
-Vídeo na playlist "OAuth: do login aos agentes", no canal Monograma no YouTube.
+Vídeo na playlist "OAuth: do login aos agentes", no canal MonogramaTech no YouTube.
 
 ## O que esta parte mostra
 

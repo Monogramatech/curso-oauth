@@ -2,7 +2,7 @@
 
 **No vídeo:** PAR e RAR: o pedido de autorização que ninguém edita
 
-Vídeo na playlist "OAuth: do login aos agentes", no canal Monograma no YouTube.
+Vídeo na playlist "OAuth: do login aos agentes", no canal MonogramaTech no YouTube.
 
 ## O que esta parte mostra
 

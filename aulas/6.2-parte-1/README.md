@@ -2,7 +2,7 @@
 
 **No vídeo:** BFF: o token que nunca chega ao navegador
 
-Vídeo na playlist "OAuth: do login aos agentes", no canal Monograma no YouTube.
+Vídeo na playlist "OAuth: do login aos agentes", no canal MonogramaTech no YouTube.
 
 ## O que esta parte mostra
 

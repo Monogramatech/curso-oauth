@@ -2,7 +2,7 @@
 
 **No vídeo:** Front-channel e back-channel logout: avisar os outros apps
 
-Vídeo na playlist "OAuth: do login aos agentes", no canal Monograma no YouTube.
+Vídeo na playlist "OAuth: do login aos agentes", no canal MonogramaTech no YouTube.
 
 ## O que esta parte mostra
 

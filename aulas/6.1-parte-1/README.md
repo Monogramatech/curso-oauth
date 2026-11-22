@@ -2,7 +2,7 @@
 
 **No vídeo:** Cookie de sessão HttpOnly e SameSite: o app web com servidor
 
-Vídeo na playlist "OAuth: do login aos agentes", no canal Monograma no YouTube.
+Vídeo na playlist "OAuth: do login aos agentes", no canal MonogramaTech no YouTube.
 
 ## O que esta parte mostra
 

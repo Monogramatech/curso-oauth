@@ -2,7 +2,7 @@
 
 **No vídeo:** CSRF, redirecionamento aberto e roubo de código no OAuth
 
-Vídeo na playlist "OAuth: do login aos agentes", no canal Monograma no YouTube.
+Vídeo na playlist "OAuth: do login aos agentes", no canal MonogramaTech no YouTube.
 
 ## O que esta parte mostra
 

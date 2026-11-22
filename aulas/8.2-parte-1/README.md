@@ -2,7 +2,7 @@
 
 **No vídeo:** O checklist de segurança do OAuth: a RFC 9700 em uma lista
 
-Vídeo na playlist "OAuth: do login aos agentes", no canal Monograma no YouTube.
+Vídeo na playlist "OAuth: do login aos agentes", no canal MonogramaTech no YouTube.
 
 ## O que esta parte mostra
 
