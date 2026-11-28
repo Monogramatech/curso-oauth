@@ -36,6 +36,7 @@ Depois, cada parte tem o seu script: `bash aulas/<parte>/reproduza.sh`. Para apa
 | [1.2 · Parte 1](aulas/1.2-parte-1/) | JWK, JWKS, kid e rotação de chaves | `reproduza.sh` | 2 |
 | [2.1 · Parte 1](aulas/2.1-parte-1/) | Resource owner, client, authorization server, resource server | `reproduza.sh` | 2 |
 | [2.1 · Parte 2](aulas/2.1-parte-2/) | /authorize, /token e o canal da frente × o canal de trás | `reproduza.sh` | 2 |
+| [2.2 · Parte 1](aulas/2.2-parte-1/) | Cliente público × confidencial, client_id, redirect_uri | `reproduza.sh` | 2 |
 
 Cada pasta tem um README com o que a parte mostra, como reproduzir, os exercícios com uma boa resposta e as fontes.
 Cada parte nova entra aqui no dia do vídeo dela, algumas horas antes de ele ir ao ar.
